@@ -26,11 +26,11 @@ namespace lab_logov_graph
             int num = 0;
             do
             {
-                Console.WriteLine("Введите первый населённый пункт");
+                Console.Write("Введите первый населённый пункт: ");
                 int locality1 = int.Parse(Console.ReadLine());
-                Console.WriteLine("Введите второй населённый пункт");
+                Console.Write("Введите второй населённый пункт: ");
                 int locality2 = int.Parse(Console.ReadLine());
-
+                Console.Write("Введите длину пути: ");
                 num = int.Parse(Console.ReadLine());
 
                 if ((locality1 & locality2) < quantity & (locality1 & locality2) >= 0 &
